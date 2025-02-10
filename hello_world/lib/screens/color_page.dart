@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../components/items.dart';
+import 'package:hello_world/components/items.dart';
+
 import '../models/item.dart';
 
 class ColorPage extends StatelessWidget {
@@ -45,7 +46,7 @@ class ColorPage extends StatelessWidget {
     Item(
         sound: 'yellow.wav',
         enName: 'yellow',
-        image: 'assets/images/colors/color_yellow.png',
+        image: 'assets/images/colors/yellow.png',
         jpName: 'Musuko'),
   ];
 

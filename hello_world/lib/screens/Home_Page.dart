@@ -70,7 +70,7 @@ class HomePage extends StatelessWidget {
                       }));
                     },
                     text: "Phrase",
-                    color: Color.fromARGB(255, 34, 148, 137)!,
+                    color: Color.fromARGB(255, 34, 148, 137),
                     imagepg: "assets/images/numbers/phases.png"),
               ],
             ),

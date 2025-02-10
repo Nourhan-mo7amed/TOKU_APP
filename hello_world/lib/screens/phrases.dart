@@ -7,47 +7,47 @@ import '../models/item.dart';
 class PhrasesPage extends StatelessWidget {
   const PhrasesPage({super.key});
 
-  final List<Item> colors = const [
+  final List<Item> Phrase = const [
     Item(
-        sound: 'black.wav',
-        enName: 'father',
-        image: 'assets/images/family_members/family_father.png',
-        jpName: 'chichioya'),
+      sound: 'are_you_coming.wav',
+      jpName: "Ko nai no?",
+      enName: 'Are you coming?',
+    ),
     Item(
-        sound: 'brown.wav',
-        enName: 'daughter',
-        image: 'assets/images/family_members/family_daughter.png',
-        jpName: 'musume'),
+      sound: 'how_are_you_feeling.wav',
+      jpName: "Go kibun wa ikagadesu ka?",
+      enName: 'How are you feeling?',
+    ),
     Item(
-        sound: 'dusty yellow.wav',
-        enName: 'grand father',
-        image: 'assets/images/family_members/family_grandfather.png',
-        jpName: 'ojisan'),
+      sound: 'i_love_anime.wav',
+      jpName: "Watashi wa anime ga daisukidesu",
+      enName: 'I love anime',
+    ),
     Item(
-        sound: 'gray.wav',
-        enName: 'mother',
-        image: 'assets/images/family_members/family_mother.png',
-        jpName: 'hahaoya'),
+      sound: 'i_love_programming.wav',
+      jpName: "Puroguramingu ga daisuki",
+      enName: 'I love programming',
+    ),
     Item(
-        sound: 'green.wav',
-        enName: 'grand mother',
-        image: 'assets/images/family_members/family_grandmother.png',
-        jpName: 'sobo'),
+      sound: 'what_is_your_name.wav',
+      jpName: "Namae wa nandesu ka?",
+      enName: 'What is your name?',
+    ),
     Item(
-        sound: 'red.wav',
-        enName: 'older brother',
-        image: 'assets/images/family_members/family_older_brother.png',
-        jpName: 'Nison'),
+      sound: 'where_are_you_going.wav',
+      jpName: "Doko ni iku no",
+      enName: 'Where are you going?',
+    ),
     Item(
-        sound: 'white.wav',
-        enName: 'older sister',
-        image: 'assets/images/family_members/family_older_sister.png',
-        jpName: 'Ane'),
+      sound: 'yes_im_coming.wav',
+      jpName: "Hai, kimasu",
+      enName: 'Yes Im coming',
+    ),
     Item(
-        sound: 'yellow.wav',
-        enName: 'son',
-        image: 'assets/images/family_members/family_son.png',
-        jpName: 'Musuko'),
+      sound: 'dont_forget_to_subscribe.wav',
+      jpName: "Kōdoku suru koto o ",
+      enName: 'Dont forget to subscribe',
+    ),
   ];
 
   @override
@@ -56,15 +56,15 @@ class PhrasesPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 49, 30, 24),
         title: const Text(
-          'family members',
+          'Phrase',
           style: TextStyle(color: Colors.white, fontSize: 25),
         ),
       ),
       body: ListView.builder(
-        itemCount: colors.length,
+        itemCount: Phrase.length,
         itemBuilder: (context, i) {
           return IistItem(
-            number: colors[i],
+            number: Phrase[i],
             color: Color.fromARGB(255, 34, 142, 131)!,
             itemType: 'Phrases',
           );

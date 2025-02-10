@@ -5,7 +5,7 @@ class Category extends StatelessWidget {
   final String text;
   final Color color;
   final String imagepg;
-  Function()?onTap;
+  Function()? onTap;
 
   Category({
     Key? key,
@@ -13,7 +13,6 @@ class Category extends StatelessWidget {
     required this.color,
     required this.imagepg,
     required this.onTap,
-    
   }) : super(key: key);
 
   @override
