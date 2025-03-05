@@ -1,3 +1,5 @@
+// ignore_for_file: missing_required_param
+
 import 'package:flutter/material.dart';
 
 import 'package:hello_world/components/items.dart';
@@ -8,6 +10,7 @@ class PhrasesPage extends StatelessWidget {
   const PhrasesPage({super.key});
 
   final List<Item> Phrase = const [
+   
     Item(
       sound: 'are_you_coming.wav',
       jpName: "Ko nai no?",
@@ -66,7 +69,7 @@ class PhrasesPage extends StatelessWidget {
         itemBuilder: (context, i) {
           return IistItem(
             number: Phrase[i],
-            color: Color.fromARGB(255, 34, 142, 131)!,
+            color: Color.fromARGB(255, 34, 142, 131),
             itemType: 'phrases',
           );
         },
