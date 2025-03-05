@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Color(0xFFE9DCD3),
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 49, 30, 24),
-        title: Center(
+        title: const Center(
           child: Text(
             'Toku App',
             style: TextStyle(

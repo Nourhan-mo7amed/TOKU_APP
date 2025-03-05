@@ -14,7 +14,7 @@ class PhrasesPage extends StatelessWidget {
       enName: 'Are you coming?',
     ),
     Item(
-      sound: 'how_are_you_feeling.wav',
+      sound: 'how.wav',
       jpName: "Go kibun wa ikagadesu ka?",
       enName: 'How are you feeling?',
     ),
@@ -54,6 +54,7 @@ class PhrasesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: const Color.fromARGB(255, 49, 30, 24),
         title: const Text(
           'Phrase',
@@ -66,7 +67,7 @@ class PhrasesPage extends StatelessWidget {
           return IistItem(
             number: Phrase[i],
             color: Color.fromARGB(255, 34, 142, 131)!,
-            itemType: 'Phrases',
+            itemType: 'phrases',
           );
         },
       ),

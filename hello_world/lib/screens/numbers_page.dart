@@ -60,7 +60,7 @@ class NumberPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar(iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: const Color.fromARGB(255, 49, 30, 24),
         title: const Text(
           'Numbers',

@@ -54,6 +54,7 @@ class ColorPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: const Color.fromARGB(255, 49, 30, 24),
         title: const Text(
           'family members',
