@@ -1,6 +1,6 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+//import 'package:flutter/widgets.dart';
 import 'package:hello_world/models/item.dart';
 
 class IistItem extends StatelessWidget {
@@ -22,8 +22,8 @@ class IistItem extends StatelessWidget {
                 color: color,
                 borderRadius: BorderRadius.all(Radius.circular(20)),
                 border: Border.all(
-                  color: Color.fromARGB(255, 138, 134, 134), // لون الحواف
-                  width: 2, // سمك الحافة
+                  color: Color.fromARGB(255, 138, 134, 134),
+                  width: 2,
                 ),
               ),
 
@@ -59,7 +59,7 @@ class IistItem extends StatelessWidget {
                         print('ex');
                       }
                     },
-                    icon: Icon(
+                    icon:const Icon(
                       Icons.play_arrow,
                       color: Colors.white,
                       size: 30,
@@ -122,7 +122,7 @@ class IistItem extends StatelessWidget {
                         print('ex');
                       }
                     },
-                    icon: Icon(
+                    icon:const Icon(
                       Icons.play_arrow,
                       color: Colors.white,
                       size: 30,
